@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="Content-Language" content="pt, en, es">
+		<title>Histórico de Partidas</title>
+		<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href='style.css'/>
+	</head>
+	<body>
+		<div id="content">
+			<div id="flags">
+				<img src="./assets/pt.png" onclick="setInterfaceLanguage('pt');"/>
+				<img src="./assets/en.png" onclick="setInterfaceLanguage('en');"/>
+				<img src="./assets/es.png" onclick="setInterfaceLanguage('es');"/>
+			</div>
+			<div id="form">
+			</div>
+			<div id="title">
+			</div>
+			<div id="matches-content" class="sub-content">
+				<div id="matches-loading">
+				</div>
+				<div id="error">
+				</div>
+				<div id="navigation">
+				</div>
+				<ul id="matches">
+				</ul>
+			</div>
+		</div>
+		<script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script>
+		<script src="https://unpkg.com/dayjs@1.8.21/locale/pt-br.js"></script>
+		<script src="https://unpkg.com/dayjs@1.8.21/locale/en.js"></script>
+		<script src="https://unpkg.com/dayjs@1.8.21/locale/es.js"></script>
+		<script src="https://unpkg.com/dayjs@1.8.21/locale/pt.js"></script>
+		<script src="./assets/matches.js"></script>
+		<script src="./assets/config.js"></script>
+		<script src="./assets/text_language.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>

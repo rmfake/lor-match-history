@@ -1,0 +1,110 @@
+const text = {
+	'pt': {
+		'player_name': 'Nome',
+		'player_tag': 'Tag',
+		'search_match_history': 'Pesquisar',
+		'loading': 'Carregando...',
+		'no_matches': 'Não há partidas registradas.',
+		'date_format': 'DD/MM/YYYY',
+		'victory': 'VITÓRIA',
+		'defeat': 'DERROTA',
+		'game_mode': 'Modo de jogo:',
+		'game_modes': {
+			'Constructed': 'Construído',
+			'Expedition': 'Expedição',
+			'Gauntlet': 'Contenda',
+			'Laboratory': 'Laboratório'
+		},
+		'game_type': 'Tipo de jogo:',
+		'game_types': {
+			'Ranked': 'Ranqueado',
+			'Normal': 'Normal'
+		},
+		'turn_count': 'Duração da partida:',
+		'turns': 'turnos',
+		'estimated_time': 'tempo est.',
+		'minutes': 'minutos',
+		'champion': 'Campeão',
+		'follower': 'Unidade',
+		'spell': 'Feitiço',
+		'landmark': 'Monumento',
+		'champions': 'Campeões',
+		'followers': 'Seguidores',
+		'spells': 'Feitiços',
+		'landmarks': 'Monumentos',
+		'copied_deck': 'Deck copiado!',
+		'copied_deck_error': 'Ocorreu um erro!'
+	},
+	'en': {
+		'player_name': 'Name',
+		'player_tag': 'Tag',
+		'search_match_history': 'Search',
+		'loading': 'Loading...',
+		'no_matches': 'There are no matches registrered.',
+		'date_format': 'MM/DD/YYYY',
+		'victory': 'VICTORY',
+		'defeat': 'DEFEAT',
+		'game_mode': 'Game mode:',
+		'game_modes': {
+			'Constructed': 'Constructed',
+			'Expedition': 'Expedition',
+			'Gauntlet': 'Gauntlet',
+			'Laboratory': 'Laboratory'
+		},
+		'game_type': 'Game type:',
+		'game_types': {
+			'Ranked': 'Ranked',
+			'Normal': 'Normal'
+		},
+		'turn_count': 'Match length:',
+		'turns': 'turns',
+		'estimated_time': 'est. time',
+		'minutes': 'minutes',
+		'champion': 'Champion',
+		'follower': 'Unit',
+		'spell': 'Spell',
+		'landmark': 'Landmark',
+		'champions': 'Champions',
+		'followers': 'Followers',
+		'spells': 'Spells',
+		'landmarks': 'Landmarks',
+		'copied_deck': 'Copied deck!',
+		'copied_deck_error': 'An error ocurred!'
+	},
+	'es': {
+		'player_name': 'Nombre',
+		'player_tag': 'Tag',
+		'search_match_history': 'Buscar',
+		'loading': 'Cargando...',
+		'no_matches': 'Não hay partidas registradas.',
+		'date_format': 'DD/MM/YYYY',
+		'victory': 'VICTORIA',
+		'defeat': 'DERROTA',
+		'game_mode': 'Modo de juego:',
+		'game_modes': {
+			'Constructed': 'Construido',
+			'Expedition': 'Expedición',
+			'Gauntlet': 'Enfrentamiento',
+			'Laboratory': 'Laboratorio'
+		},
+		'game_type': 'Tipo de juego:',
+		'game_types': {
+			'Ranked': 'Clasificatoria',
+			'Normal': 'Normal'
+		},
+		'turn_count': 'Duración de la partida:',
+		'turns': 'turnos',
+		'estimated_time': 'tiempo est.',
+		'minutes': 'minutos',
+		'champion': 'Campeón',
+		'follower': 'Unidad',
+		'spell': 'Hechizo',
+		'landmark': 'Hito',
+		'champions': 'Campeones',
+		'followers': 'Adeptos',
+		'spells': 'Hechizos',
+		'landmarks': 'Hitos',
+		'copied_deck': 'Mazo copiado!',
+		'copied_deck_error': 'Ocurrió un error!'
+	}
+};
